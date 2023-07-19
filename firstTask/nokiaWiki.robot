@@ -24,7 +24,7 @@ Test Nokia Wiki
 *** Keywords ***
 Open Browser And Go To Google
     Create Webdriver    ${BROWSER}
-    Set Selenium Speed    0.5
+    Set Selenium Speed    0.6
     Maximize Browser Window
     Go To    https://www.google.com/
 
